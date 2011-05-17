@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+<ScrollView android:id="@+id/ScrollView01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+	<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+			
+		<TextView android:id="@+id/TextView08" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/troublePro1" android:textStyle="bold" android:textColor="@color/mbedBlue" android:textSize="25px"></TextView>
+		<TextView android:id="@+id/TextView07" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/troubleSol1" android:textColor="@color/mbedBlue" android:textSize="20px"></TextView>
+		<TextView android:id="@+id/TextView06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/troublePro21" android:textStyle="bold" android:layout_marginTop="10px" android:textColor="@color/mbedBlue" android:textSize="25px"></TextView>
+		<TextView android:id="@+id/TextView022" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Try the following:" android:textColor="@color/mbedBlue" android:textSize="20px"></TextView>
+		<TextView android:id="@+id/TextView02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/troubleSol22" android:textColor="@color/mbedBlue" android:textSize="20px"></TextView>
+		<TextView android:id="@+id/TextView05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/troubleSol24" android:textColor="@color/mbedBlue" android:textSize="20px"></TextView>
+		<TextView android:id="@+id/TextView03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/troubleSol25" android:textColor="@color/mbedBlue" android:textSize="20px"></TextView>
+		<TextView android:text="@string/troubleSol26" android:layout_height="wrap_content" android:id="@+id/TextView04" android:layout_width="wrap_content" android:textColor="@color/mbedBlue" android:textSize="20px"></TextView>
+		<TextView android:id="@+id/TextView10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/troubleSol28" android:textColor="@color/mbedBlue" android:textSize="20px"></TextView>
+</LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+</LinearLayout>

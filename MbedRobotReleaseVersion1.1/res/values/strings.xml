@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <string name="app_name">Mbed Robot</string>
+
+    <!--  BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. </string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_not_connected">not connected</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices...</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="connect">Connect a device</string>
+    <string name="discoverable"></string>
+
+	
+	<string name="troublePro1"> 1. No Devices are showing? </string>
+	<string name="troubleSol1">Have you paired your mbed device with the mobile? To do this go: Android Settings &gt;&gt; Wireless &amp; networks &gt;&gt; Bluetooth settings &gt;&gt; Scan for devices. Then select the mbed device you wish to pair with. The pin code is 1234</string>
+	
+	<string name="troublePro21">2. You can not reconnect to the mbed device over bluetooth?</string>
+	<string name="troubleSol22">Try restarting the app. </string>
+	<string name="troubleSol23">Reset the robot. </string>
+	<string name="troubleSol24">Turn the robot off and on. </string>
+	<string name="troubleSol25">Turn the mobile off and on. </string>
+	<string name="troubleSol26">Un pair the mbed robot with the mobile/tablet. </string>
+	<string name="troubleSol27">Re pair the mbed robot with the internet tablet. </string>
+	<string name="troubleSol28">Uninstall and re install the mbed robot app. </string>
+
+
+</resources>
